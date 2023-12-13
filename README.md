@@ -1,6 +1,6 @@
 # User Management Backend
 
-This is the backend server for the User Management application. It provides APIs for managing user data.
+This is the backend server for the User Management application. It provides APIs for managing user data using mongodb, angular, .net 7.
 
 
 ## API Endpoints
