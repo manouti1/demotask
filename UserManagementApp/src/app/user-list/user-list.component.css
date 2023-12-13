@@ -1,0 +1,41 @@
+.mat-elevation-z8 {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .user-list-actions button {
+    margin-left: 8px; 
+  }
+  
+  .user-list-no-data {
+    margin-top: 16px;
+    font-style: italic; 
+    color: #777777; 
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  .user-list-table th, .user-list-table td {
+    border: 1px solid #dddddd; 
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-list-table th {
+    background-color: #f2f2f2; 
+  }
+  
+  

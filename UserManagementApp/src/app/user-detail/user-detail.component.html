@@ -1,0 +1,10 @@
+<!-- user-detail.component.html -->
+<h2>User Details</h2>
+<p><strong>ID:</strong> {{ user.id }}</p>
+<p><strong>First Name:</strong> {{ user.firstName }}</p>
+<p><strong>Last Name:</strong> {{ user.lastName }}</p>
+<p><strong>Email:</strong> {{ user.email }}</p>
+<p><strong>Country:</strong> {{ user.country }}</p>
+<p><strong>Consent Given:</strong> {{ user.consentGiven ? 'Yes' : 'No' }}</p>
+<p><strong>Consent Date:</strong> {{ user.consentDate | date }}</p>
+<button mat-button (click)="onClose()">Close</button>

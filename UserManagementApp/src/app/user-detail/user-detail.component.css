@@ -1,0 +1,20 @@
+/* user-detail.component.css */
+:host {
+    display: block;
+    width: 500px; 
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 8px;
+  }
+  
+  button {
+    margin-top: 16px;
+  }
+  
